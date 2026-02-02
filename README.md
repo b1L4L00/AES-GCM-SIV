@@ -56,15 +56,4 @@ module aes_gcm_siv_top (
     output wire         data_out_valid
     // ... control and status signals
 );
-
-### **Project Structure**
-```aes-gcm-siv-fpga/
-├── rtl/                    # Verilog source files
-│   ├── aes_256_core.v     # AES encryption core
-│   ├── polyval_unit.v     # Authentication hash
-│   ├── key_derivation.v   # Key generation logic
-│   ├── controller_fsm.v   # Main state machine
-│   └── aes_gcm_siv_top.v  # Top-level module
-├── sim/                   # Testbenches
-├── constraints/           # FPGA timing constraints
-└── scripts/              # Build scripts
+```
